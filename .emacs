@@ -1,10 +1,10 @@
 (add-to-list 'load-path "~/.emacs.d")
 
-; Install Geben: http://blog.abourget.net/2010/9/13/geben-+-emacs-+-ubuntu-and-make-the-debugging-work
+; My PHP setup
+
 (add-to-list 'load-path "/usr/share/emacs/23.1/site-lisp/geben") ; Geben directory
+; Optionally load it on every run (only the library, won't run the server automatically)
 (require 'geben)
 
-; Installed drupal-mode in ~/.emacs.d/
-; http://drupal.org/node/59868
 (require 'drupal-mode)
 (setup-php-drupal)
